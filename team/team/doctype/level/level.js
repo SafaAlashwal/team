@@ -5,8 +5,7 @@ frappe.ui.form.on("Level", {
     category : function(frm) {
         if (frm.doc.category) {
             frappe.call({
-                method: 'get_specializations',
-                doc : frm.doc,
+                method: 'team.team.doctype.level.level.get_specializations',
                 args: {
                     category: frm.doc.category
                 },

@@ -6,16 +6,19 @@ from frappe.model.document import Document
 
 
 class Level(Document):
-	@frappe.whitelist()
-	def get_specializations(self, category):
-		college_doc = frappe.get_doc("Category", category)
-		specializations = []
-		
-		for spec in college_doc.sub_category:  # assuming 'specializations' is the table field
-			specializations.append({
-				"name1": spec.name1,  # assuming these are the fields in the table
-				"number": spec.number
-			})
+	pass
 
-		return specializations
+
+@frappe.whitelist()
+def get_specializations( category):
+	college_doc = frappe.get_doc("Category", category)
+	specializations = []
+	
+	for spec in college_doc.sub_category:  # assuming 'specializations' is the table field
+		specializations.append({
+			"name1": spec.name1,  # assuming these are the fields in the table
+			"number": spec.number
+		})
+
+	return specializations
 
