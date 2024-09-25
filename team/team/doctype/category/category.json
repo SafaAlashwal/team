@@ -6,7 +6,8 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "category"
+  "category",
+  "sub_category"
  ],
  "fields": [
   {
@@ -14,11 +15,17 @@
    "fieldtype": "Data",
    "label": "Category",
    "unique": 1
+  },
+  {
+   "fieldname": "sub_category",
+   "fieldtype": "Table",
+   "label": "Sub Category",
+   "options": "Sub Category"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-25 12:31:13.328857",
+ "modified": "2024-09-25 12:51:35.988920",
  "modified_by": "Administrator",
  "module": "team",
  "name": "Category",
