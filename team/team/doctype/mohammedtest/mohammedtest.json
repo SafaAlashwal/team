@@ -5,18 +5,24 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "name1"
+  "name1",
+  "image_attached"
  ],
  "fields": [
   {
    "fieldname": "name1",
    "fieldtype": "Data",
    "label": "name1"
+  },
+  {
+   "fieldname": "image_attached",
+   "fieldtype": "Attach",
+   "label": "image attached "
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-25 12:43:46.487374",
+ "modified": "2024-09-25 13:02:05.760724",
  "modified_by": "Administrator",
  "module": "team",
  "name": "Mohammedtest",
