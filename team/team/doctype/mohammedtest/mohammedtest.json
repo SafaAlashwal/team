@@ -1,35 +1,25 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:category",
- "creation": "2024-09-25 12:23:29.979603",
+ "creation": "2024-09-25 12:43:33.546995",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "category",
-  "sub_category"
+  "name1"
  ],
  "fields": [
   {
-   "fieldname": "category",
+   "fieldname": "name1",
    "fieldtype": "Data",
-   "label": "Category",
-   "unique": 1
-  },
-  {
-   "fieldname": "sub_category",
-   "fieldtype": "Table",
-   "label": "Sub Category",
-   "options": "Sub Category"
+   "label": "name1"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-25 12:51:35.988920",
+ "modified": "2024-09-25 12:43:46.487374",
  "modified_by": "Administrator",
  "module": "team",
- "name": "Category",
- "naming_rule": "By fieldname",
+ "name": "Mohammedtest",
  "owner": "Administrator",
  "permissions": [
   {
