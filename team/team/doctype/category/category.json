@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:category",
  "creation": "2024-09-25 12:23:29.979603",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -11,15 +12,17 @@
   {
    "fieldname": "category",
    "fieldtype": "Data",
-   "label": "Category"
+   "label": "Category",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-25 12:27:02.818596",
+ "modified": "2024-09-25 12:31:13.328857",
  "modified_by": "Administrator",
  "module": "team",
  "name": "Category",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
