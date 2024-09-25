@@ -1,43 +1,35 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-09-23 20:10:49.987473",
+ "autoname": "field:category",
+ "creation": "2024-09-25 12:23:29.979603",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "name1",
-  "date",
-  "last_name",
-  "first_name"
+  "category",
+  "sub_category"
  ],
  "fields": [
   {
-   "fieldname": "name1",
+   "fieldname": "category",
    "fieldtype": "Data",
-   "label": "Name"
+   "label": "Category",
+   "unique": 1
   },
   {
-   "fieldname": "date",
-   "fieldtype": "Data",
-   "label": "date"
-  },
-  {
-   "fieldname": "last_name",
-   "fieldtype": "Data",
-   "label": "last name"
-  },
-  {
-   "fieldname": "first_name",
-   "fieldtype": "Data",
-   "label": "first name"
+   "fieldname": "sub_category",
+   "fieldtype": "Table",
+   "label": "Sub Category",
+   "options": "Sub Category"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-25 12:14:09.770315",
+ "modified": "2024-09-25 12:51:35.988920",
  "modified_by": "Administrator",
  "module": "team",
- "name": "Abeer",
+ "name": "Category",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
