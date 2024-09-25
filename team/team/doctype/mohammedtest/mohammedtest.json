@@ -1,31 +1,31 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-09-24 12:06:43.746667",
+ "creation": "2024-09-25 12:43:33.546995",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "name1",
-  "salary"
+  "image_attached"
  ],
  "fields": [
   {
    "fieldname": "name1",
    "fieldtype": "Data",
-   "label": "name"
+   "label": "name1"
   },
   {
-   "fieldname": "salary",
-   "fieldtype": "Currency",
-   "label": "salary"
+   "fieldname": "image_attached",
+   "fieldtype": "Attach",
+   "label": "image attached "
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-25 10:07:30.376163",
+ "modified": "2024-09-25 13:02:05.760724",
  "modified_by": "Administrator",
  "module": "team",
- "name": "fatma",
+ "name": "Mohammedtest",
  "owner": "Administrator",
  "permissions": [
   {
