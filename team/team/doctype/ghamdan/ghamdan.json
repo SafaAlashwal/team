@@ -8,7 +8,8 @@
  "field_order": [
   "is_here",
   "p_id",
-  "full_name"
+  "full_name",
+  "date_of_birth"
  ],
  "fields": [
   {
@@ -30,11 +31,16 @@
    "label": "P ID",
    "mandatory_depends_on": "eval: doc.is_here == 1;",
    "unique": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "date of birth"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-25 01:14:04.674569",
+ "modified": "2024-09-25 11:44:50.331857",
  "modified_by": "Administrator",
  "module": "team",
  "name": "Ghamdan",
