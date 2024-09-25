@@ -1,28 +1,33 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:category",
- "creation": "2024-09-25 12:23:29.979603",
+ "creation": "2024-09-25 12:27:36.615301",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "category"
+  "category",
+  "sub_category"
  ],
  "fields": [
   {
    "fieldname": "category",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "label": "Category",
-   "unique": 1
+   "options": "Category"
+  },
+  {
+   "fieldname": "sub_category",
+   "fieldtype": "Table",
+   "label": "Sub Category",
+   "options": "Sub Category"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-25 12:31:13.328857",
+ "modified": "2024-09-25 12:39:22.110827",
  "modified_by": "Administrator",
  "module": "team",
- "name": "Category",
- "naming_rule": "By fieldname",
+ "name": "Level",
  "owner": "Administrator",
  "permissions": [
   {
