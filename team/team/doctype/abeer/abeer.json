@@ -7,7 +7,8 @@
  "field_order": [
   "name1",
   "date",
-  "last_name"
+  "last_name",
+  "first_name"
  ],
  "fields": [
   {
@@ -24,11 +25,16 @@
    "fieldname": "last_name",
    "fieldtype": "Data",
    "label": "last name"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "first name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-23 22:06:15.484427",
+ "modified": "2024-09-25 12:14:09.770315",
  "modified_by": "Administrator",
  "module": "team",
  "name": "Abeer",
