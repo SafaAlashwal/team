@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:product_type",
+ "creation": "2024-09-27 20:39:27.875421",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "choose_the_product_type_section",
+  "product_type",
+  "section_break_jjwl",
+  "products"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_type",
+   "fieldtype": "Link",
+   "label": "Product Type",
+   "options": "Product Type",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_jjwl",
+   "fieldtype": "Section Break",
+   "label": "Product Details"
+  },
+  {
+   "fieldname": "products",
+   "fieldtype": "Table",
+   "label": "Products",
+   "options": "Product Details"
+  },
+  {
+   "fieldname": "choose_the_product_type_section",
+   "fieldtype": "Section Break",
+   "label": "Choose the product type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-27 21:24:57.756898",
+ "modified_by": "Administrator",
+ "module": "team",
+ "name": "Product Selection",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
