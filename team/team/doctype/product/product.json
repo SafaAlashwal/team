@@ -9,7 +9,8 @@
   "product_type",
   "product_name",
   "manufacturer",
-  "price"
+  "price",
+  "image"
  ],
  "fields": [
   {
@@ -32,11 +33,16 @@
    "fieldname": "price",
    "fieldtype": "Currency",
    "label": "Price"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image "
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-27 20:36:13.277191",
+ "modified": "2024-09-29 10:26:52.124483",
  "modified_by": "Administrator",
  "module": "team",
  "name": "Product",
