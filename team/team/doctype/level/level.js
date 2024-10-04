@@ -3,7 +3,8 @@
 
 frappe.ui.form.on("Level", {
     category : function(frm) {
-        console.log("hi");
+        console.log("add feature");
+
 
         if (frm.doc.category) {
             frappe.call({
@@ -13,7 +14,7 @@ frappe.ui.form.on("Level", {
                 },
                 callback: function(r) {
                     if (r.message) {
-                        frm.clear_table('sub_category');  // assuming 'specializations' is the table field in Inquiry
+                        frm.clear_table('sub_category');  
                         r.message.forEach(function(spec) {
                             let row = frm.add_child('sub_category');
                             row.name1 = spec.name1;
