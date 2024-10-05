@@ -5,6 +5,17 @@ frappe.ui.form.on("Level", {
     category : function(frm) {
         console.log("add feature");
         console.log("add feature2");
+        console.log("add feature3");
+        console.log("add feature4");
+        console.log("add feature6");
+        console.log("add jhfjj");
+        console.log("add feature10");
+
+
+        console.log("add jndfjk");
+
+
+
 
 
         if (frm.doc.category) {
