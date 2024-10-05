@@ -6,7 +6,7 @@ from frappe.model.document import Document
 
 
 class Level(Document):
-	pass
+	frappe.msgprint("hi")
 
 
 @frappe.whitelist()
