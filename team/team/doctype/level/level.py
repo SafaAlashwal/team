@@ -6,7 +6,7 @@ from frappe.model.document import Document
 
 
 class Level(Document):
-	frappe.msgprint("prosite")
+	frappe.msgprint("prosite1")
 
 
 @frappe.whitelist()
