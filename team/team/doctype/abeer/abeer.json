@@ -8,7 +8,8 @@
   "name1",
   "date",
   "last_name",
-  "first_name"
+  "first_name",
+  "amended_from"
  ],
  "fields": [
   {
@@ -30,11 +31,22 @@
    "fieldname": "first_name",
    "fieldtype": "Data",
    "label": "first name"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Abeer",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2024-09-25 12:14:09.770315",
+ "modified": "2024-10-02 12:08:53.325072",
  "modified_by": "Administrator",
  "module": "team",
  "name": "Abeer",
