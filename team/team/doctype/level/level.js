@@ -11,7 +11,7 @@ frappe.ui.form.on("Level", {
         console.log("add feature9");
 
 
-        console.log("add feature7");
+        console.log("add jndfjk");
 
 
 
